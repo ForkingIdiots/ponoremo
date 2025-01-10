@@ -5,7 +5,7 @@ import React from 'react';
 
 const App: React.FC = () => {
   return (
-    <div className="text-red-500">
+    <div className="text-red-500" style={{ textAlign: 'center' }}>
       <h1>Hello World</h1>
       <ButtonEmoji emoji="🍦">Click me</ButtonEmoji>
 
