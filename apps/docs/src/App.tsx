@@ -8,7 +8,11 @@ const App: React.FC = () => {
     <div className="text-red-500" style={{ textAlign: 'center' }}>
       <h1>Hello World</h1>
       <ButtonEmoji emoji="🍦">Click me</ButtonEmoji>
-
+      <ButtonEmoji emoji="🍪">Get a Cookie</ButtonEmoji>
+      <ButtonEmoji emoji="🎮">Play Game</ButtonEmoji>
+      <ButtonEmoji emoji="🎨">Create Art</ButtonEmoji>
+      <ButtonEmoji emoji="🚀">Launch</ButtonEmoji>
+      <ButtonEmoji emoji="🌈">Make Magic</ButtonEmoji>
     </div>
   );
 };
