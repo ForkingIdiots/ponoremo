@@ -8,7 +8,8 @@
     "dev:docs": "turbo dev --filter=docs",
     "dev:web": "turbo dev --filter=web",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "node-modules:clean": "rm -rf **/*/node_modules node_modules && pnpm install"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
