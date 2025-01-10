@@ -41,7 +41,7 @@ jobs:
           cache: pnpm
           node-version: ${{ env.NODE_VERSION }}
 
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install
         env:
           NODE_AUTH_TOKEN: ${{ secrets.SCOPED_YOLO }}
 
